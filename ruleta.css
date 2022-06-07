@@ -1,0 +1,169 @@
+
+		@keyframes ruleta{
+			0%{
+				background-position:-263px -0px;
+			}
+			14%{
+				background-position:-263px -298px;
+			}
+			28%{
+				background-position:-263px -597px;
+			}
+			42%{
+				background-position:-263px -895px;
+			}
+			56%{
+				background-position:-263px -1190px;
+			}
+			84%{
+				background-position:-263px -1487px;
+			}
+			100%{
+				background-position:-263px -0px;
+			}
+		}
+		@keyframes ruletaA{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -1487px;
+			}
+			
+		}
+		@keyframes ruletaR{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -1190px;
+			}
+			
+		}
+		@keyframes ruletaT{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -895px;
+			}
+			
+		}
+		@keyframes ruletaK{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -597px;
+			}
+			
+		}
+		@keyframes ruletaN{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -298px;
+			}
+			
+		}
+		@keyframes ruletaP{
+			0%{
+				background-position:-260px -7px;
+			}
+			50%{
+				background-position:-260px -600px;
+			}
+			100%{
+				background-position:-263px -0px;
+			}
+			
+		}
+		 .rule{
+			height: 300px;
+			width:300px;
+			background-size: cover;
+			background: url(lola.png);
+			background-position:-263px -1487px;
+			border: solid 10px black;
+			border-radius: 200px;
+
+		}
+
+		.rull{
+			width: 80%;
+			height: 15%;
+			background: red;
+			font-size: 80px;
+			text-align: center;
+			color: white;
+			box-sizing: border-box;
+			border-radius: 20px;
+			border: solid 10px black;
+			
+		}
+		.rulemenu{
+			background: royalblue;
+			width: 99%;
+			height: 100%;
+			padding-top:4%;
+			box-sizing: border-box;
+			border:solid 8px black;
+			padding-bottom: 5%;
+		}
+		.titu{
+			color: black;
+			font-size: 70px;
+			width: 100%;
+			
+
+		}
+		.dados{
+			margin-top:2%;
+			margin-bottom: 2%;
+			color: black;
+			width: 80px;
+			height: 80px;
+			background:url(d2.png) white;
+			font-size: 80px;
+			border: solid 5px yellow;
+			border-radius: 45px;
+			text-align: center;
+			background-size: cover;
+			display: inline-flex;
+			background-position: 0px -20px;
+
+		}
+		.juga{
+			margin-top:2%;
+			margin-bottom: 2%;
+			color: black;
+			width: 80px;
+			height: 80px;
+			background:url(juga.png);
+			font-size: 80px;
+			border: solid 5px yellow;
+			border-radius: 45px;
+			text-align: center;
+			background-size: cover;
+			background-position: 0px;
+			display: inline-flex;
+
+		}
+	
+	
