@@ -1,4 +1,5 @@
 
+		
 		@keyframes ruleta{
 			0%{
 				background-position:-263px -0px;
@@ -94,7 +95,7 @@
 			}
 			
 		}
-		  .rule{
+		 .rule{
 			height: 300px;
 			width:300px;
 			background-size: cover;
