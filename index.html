@@ -7,20 +7,20 @@
 	<link rel="stylesheet" type="text/css" href="ruleta.css">
 </head>
 <body>
-
-	<div class=" rulemenu"> 
+<div class=" rulemenu"> 
 		<center>
 			<div class="titu">Titulo App</div>
 			<div class="rule" id="ruleta"></div>
-			<br>
-			<br>
+		
+		
 			<div class="dados" onclick="dados()">  </div>
 			<div class="juga" onclick="jugador()">  </div>
-			<div class="dados" onclick="dados()">  </div>
 			<div class="juga" onclick="jugador()">  </div>
 			<br>
 			<div onclick="empezar()" class="rull">boton</div>
-			<div class="emer" id="emergente">   </div>
+			<div class="emer" id="emergente">   
+				<div class="cerrar" id="close" onclick="cerrar()"></div>
+			</div>
 		</center>
 		
 	</div>
@@ -79,7 +79,10 @@
 		function dados() {
 			if(banda==0){
 				dado=parseInt(Math.random() * (7 - 1) + 1)
-				console.log("dados " + dado)	
+				console.log("dados " + dado)
+				emergente.style.display="block"
+				emergente.style.opacity=1
+				emergente.innerHTML= dado+"<div class='cerrar' id='close' onclick='cerrar()'></div>"		
 			}
 		
 
@@ -88,11 +91,23 @@
 			if(banju==0){
 				
 				player=parseInt(Math.random() * (5 - 1) + 1)
-				console.log("jugador "+ player)	
+				console.log("jugador "+ player)
+				emergente.style.display="block"
+				emergente.style.opacity=1
+				emergente.innerHTML= player+"<div class='cerrar' id='close' onclick='cerrar()'></div>"
+				
+					
 			}
 			
 		}
+		function cerrar() {
+			
+			emergente.style.display="none"
+			emergente.style.opacity=0
+				
+		}
 
+	
 	</script>
 	<audio src="ruleta.mp3" loop id="audio1"></audio>
 	<audio src="fin.mp3"  id="audio2" ></audio>
